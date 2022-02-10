@@ -2,7 +2,11 @@
 	"layer": "top",
 	"modules-left": ["sway/workspaces", "mpd", "sway/mode"],
 	"modules-center": [],
-	"modules-right": ["network", "pulseaudio", "temperature", "cpu", "memory", "clock"],
+	"modules-right": ["network", "pulseaudio", "temperature", "cpu", "memory", "battery", "clock"],
+	"battery": {
+		"format": "{icon} {capacity}%",
+        	"format-icons": ["", "", "", "", ""]
+	},
 	"mpd": {
 		"tooltip": false,
 		"format": "{stateIcon} {artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S})",

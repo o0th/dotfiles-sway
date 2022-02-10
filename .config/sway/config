@@ -28,7 +28,7 @@ set $right l
 set $term env kitty
 
 # Swaylock
-set $swaylock swaylock-fancy -f "Hack-Regular-Nerd-Font-Complete"
+set $swaylock swaylock-fancy -f "Hasklig"
 
 # Menu
 set $menu-run rofi -show run
@@ -37,6 +37,8 @@ set $menu-window rofi -show window
 # Output names
 # set $monitor-left HDMI-A-1
 # set $monitor-center HDMI-A-2
+
+output * scale 2
 
 # Workspace names
 set $workspace1 1
@@ -59,8 +61,8 @@ set $workspace10 10
 #############################
 
 # Backgrounds
-# output $monitor-left bg /home/short/Photos/wallpapers/left.jpg fill
-# output $monitor-center bg /home/short/Photos/wallpapers/center.jpg fill
+output * bg /home/o0th/Wallpapers/nord.png fill
+# output * bg #3b4252 solid_color
 
 # Positioning
 # output $monitor-left resolution 1920x1080 position 0,300
