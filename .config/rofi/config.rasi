@@ -1,0 +1,4 @@
+@theme "nord"
+configuration {
+	font: "Hasklig 12";
+}
