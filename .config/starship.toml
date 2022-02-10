@@ -1,0 +1,9 @@
+[character]
+success_symbol = "[גּ](bold green)"
+error_symbol = "[גּ](bold red)"
+
+[cmd_duration]
+disabled = false
+
+[aws]
+disabled = true

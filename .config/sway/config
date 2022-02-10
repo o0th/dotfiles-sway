@@ -61,7 +61,7 @@ set $workspace10 10
 #############################
 
 # Backgrounds
-output * bg /home/o0th/Wallpapers/nord.png fill
+output * bg /home/o0th/Wallpapers/base.png fill
 # output * bg #3b4252 solid_color
 
 # Positioning
