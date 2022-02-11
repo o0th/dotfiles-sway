@@ -4,4 +4,5 @@ set -U fish_greeting
 # Start starship
 starship init fish | source
 
-fish_ssh_agent
+# plugins
+fundle plugin 'danhper/fish-ssh-agent'
